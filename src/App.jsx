@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-      <Header title={title} />
+      <Header title={title} count={count} />
       <Counter count={count} stateCount={setCount} />
       <Footer copyright={copyright} />
     </>
