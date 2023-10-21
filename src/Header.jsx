@@ -2,14 +2,14 @@ function Header({ title, count }) {
 
   return (
     <>
-      <header>
+      <header className="container-fluid text-center">
 
         <h1 style={
           {
             color: (count > 5) ? `red`
               : `black`
           }
-        }>{title}</h1>
+        } className="mt-5" >{title}</h1>
 
       </header>
     </>

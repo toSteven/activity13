@@ -1,7 +1,7 @@
 function CountDisplay({ count }) {
   return (
     <>
-      <h1 >Count: {count}</h1>
+      <h1 className="display-1">Count : {count}</h1>
     </>
   )
 }
